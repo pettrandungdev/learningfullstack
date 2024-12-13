@@ -1,0 +1,125 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    }
+@media (min-width: 768px){
+.banner {
+    background: url('./banner.jpg');
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    
+    .about-sign-in {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+
+        .about, .sign-in {
+            text-decoration: none;
+            margin-top: 20px;
+            padding: 10px 15px;
+            display:inline-block;
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            line-height: 16px;
+        }
+
+        .sign-in {
+            color: #8bc34a;
+            margin-right: 60px;
+            margin-left: 25px;
+            border: 2px solid #8bc34a;
+            border-radius: 20px;
+        }
+
+        .about {
+            color: #283238;
+        }
+    }
+
+    .logo {
+        background: url('./hapoERP.png') center center no-repeat;
+        margin-top: 40px;
+        height: 100px;
+        box-sizing: border-box;
+    }
+
+    .content-center {
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .left, .center, .right {
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 53px;
+
+            img {
+                width: 52px;
+                height: 48px;
+                margin-bottom: 14px;
+                vertical-align: middle;
+                border-style: none;
+            }
+        
+        }
+
+        
+
+        span {
+            color: #283238;
+            display: block;
+            font-size: 20px;
+            font-family: Roboto;
+            height: 48px;
+            font-size: 36px;
+            font-weight: 400;
+            letter-spacing: -0.07px;
+            line-height: 48px;
+        }
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 1rem;
+
+        span {
+                height: 24px;
+                font-size: 18px;
+                line-height: 24px;
+                color: #283238;
+                font-family: Roboto;
+                font-style: italic;
+                letter-spacing: -0.02px;
+                text-align: center;
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+
+        button {
+            margin: 31px 0 233px 0;
+            border-radius: 100px;
+            background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+            font-family: Roboto;
+            color: #FFFFFF;
+            letter-spacing: 1.33px;
+            line-height: 21px;
+            text-transform: uppercase;
+            cursor: pointer;
+            height: 40px;
+            font-size: inherit;
+            width: 144px;
+        }
+    }
+}
+}
